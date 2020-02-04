@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.users.Update">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="updateUserTest"/>
+        </methods>
+      </class> <!-- test.users.Update -->
+      <class name="test.posts.Delete">
+        <methods>
+          <include name="deletePostTest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- test.posts.Delete -->
+      <class name="test.login.Login">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- test.login.Login -->
+      <class name="test.posts.Update">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="updatePostTest"/>
+        </methods>
+      </class> <!-- test.posts.Update -->
+      <class name="test.users.Delete">
+        <methods>
+          <include name="deleteUserTest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- test.users.Delete -->
+      <class name="test.posts.Create">
+        <methods>
+          <include name="createSimplePostTest"/>
+          <include name="createPostTest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- test.posts.Create -->
+      <class name="test.users.Create">
+        <methods>
+          <include name="createUserTest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- test.users.Create -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

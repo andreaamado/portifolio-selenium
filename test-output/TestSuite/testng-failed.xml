@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [TestSuite]" parallel="tests">
+  <test name="2. Posts(failed)" parallel="tests">
+    <classes>
+      <class name="tests.TC_Posts">
+        <methods>
+          <include name="createSimplePostTest"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- tests.TC_Posts -->
+    </classes>
+  </test> <!-- 2. Posts(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

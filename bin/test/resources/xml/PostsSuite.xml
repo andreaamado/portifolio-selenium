@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuitePosts" parallel="none">
+  <test name="Posts">
+    <classes>
+      <class name="test.posts.Create" />
+      <!-- <class name="test.posts.Update" />
+      <class name="test.posts.Delete" />
+      <class name="test.posts.Read" /> -->
+    </classes>
+  </test>
+</suite> <!-- Suite -->
